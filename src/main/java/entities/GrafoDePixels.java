@@ -2,10 +2,13 @@ package entities;
 
 import java.awt.image.BufferedImage;
 import java.awt.Color;
+import java.awt.Font;
 import java.awt.geom.Point2D;
 import java.util.*;
 import org.jgrapht.graph.DefaultUndirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
+import javax.swing.JLabel;
+
 
 public class GrafoDePixels {
     private DefaultUndirectedGraph<Point2D, DefaultEdge> grafo;
@@ -139,22 +142,25 @@ public class GrafoDePixels {
         return cor.equals(Color.BLACK);
     }
 
-    public void exibirSequenciaDePassos(List<Point2D> caminho) {
+    public void exibirSequenciaDePassos(List<Point2D> caminho, JLabel label) {
+        StringBuilder sequencia = new StringBuilder();
         for (int i = 0; i < caminho.size() - 1; i++) {
             Point2D atual = caminho.get(i);
             Point2D proximo = caminho.get(i + 1);
             if (proximo.getX() > atual.getX()) {
-                System.out.print("-> "); // Setas para a direita
+                sequencia.append("→ "); // Setas para a direita
             } else if (proximo.getX() < atual.getX()) {
-                System.out.print("<- "); // Setas para a esquerda
+                sequencia.append("← "); // Setas para a esquerda
             } else if (proximo.getY() > atual.getY()) {
-                System.out.print("^ "); // Setas para baixo
+                sequencia.append("↓ "); // Setas para baixo
             } else if (proximo.getY() < atual.getY()) {
-                System.out.print("V "); // Setas para cima
+                sequencia.append("↑ "); // Setas para cima
             }
         }
-        System.out.println();
+        label.setText(sequencia.toString());
+        label.setFont(new Font("Arial", Font.PLAIN, 20));
     }
+    
     
     
 }

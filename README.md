@@ -34,3 +34,4 @@ Este projeto foi desenvolvido como parte da disciplina de Algoritmos e Estrutura
 ## Autor
 
 - Pedro Henrique Esteves Guedes
+- Pedro Henrique Da Cruz

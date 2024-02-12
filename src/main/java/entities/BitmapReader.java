@@ -81,7 +81,6 @@ public class BitmapReader extends JFrame {
                 List<Point3D> caminhoMaisCurto = null;
                 for (Point3D noVerde : nosVerdes) {
                     List<Point3D> caminho = grafo.dijkstra(noVermelho, noVerde);
-                    grafo.exibirSequenciaDePassos(caminhoMaisCurto, pathLabel);
                     if (caminhoMaisCurto == null || caminho.size() < caminhoMaisCurto.size()) {
                         caminhoMaisCurto = caminho;
                     }

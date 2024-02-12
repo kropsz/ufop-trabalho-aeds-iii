@@ -7,7 +7,7 @@ Este projeto foi desenvolvido como parte da disciplina de Algoritmos e Estrutura
 ## Funcionalidades Principais
 
 1. **Leitura da Imagem em Bitmap:**
-   - O programa é capaz de ler uma imagem em formato bitmap como entrada. A imagem pode ser fornecida pelo usuário.
+   - O programa é capaz de ler uma imagem em formato bitmap ou uma pasta com diversas imagens do mesmo formato como entrada. A imagem pode ser fornecida pelo usuário.
 2. **Criação do Grafo:**
    - Cada pixel na imagem é representado como um nó no grafo. Os pixels adjacentes são conectados por arestas, formando o grafo que representa a estrutura da imagem.
 
@@ -31,7 +31,7 @@ Este projeto foi desenvolvido como parte da disciplina de Algoritmos e Estrutura
 - Bibliotecas ou Frameworks: JGrapht
 - Ferramentas de Desenvolvimento: Visual Studio Code, Intellij
 
-## Autor
+## Autores
 
 - Pedro Henrique Esteves Guedes
 - Pedro Henrique Da Cruz

@@ -15,7 +15,7 @@ Este projeto foi desenvolvido como parte da disciplina de Algoritmos e Estrutura
    - O programa é capaz de ler uma imagem em formato bitmap como entrada. A imagem é fornecida pelo usuário. 
    
    <div>
-      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/114687669/304253295-aa6d4037-1021-4fbd-afac-71475e620188.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T233821Z&X-Amz-Expires=300&X-Amz-Signature=2c55ef4bb2e9d045d94cbe7397b09d68f22370aa8992c11646100aa98c6fa1ca&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=673943109" width="400px" />
+      <img src="https://github.com/kropsz/ufop-trabalho-aeds-iii/assets/114687669/f9825b31-e447-45ee-8820-75cf960caeca" width="400px" />
    </div>
 
    - Também é possível o deslocamento em níveis (andares) através de várias imagens
@@ -36,7 +36,7 @@ Este projeto foi desenvolvido como parte da disciplina de Algoritmos e Estrutura
    - O programa determina e exibe o caminho mais curto entre dois pontos específicos na imagem.
 
    <div>
-      <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/114687669/304253293-d142d922-cfc2-4855-8dbb-8928d216d8c8.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240212%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240212T233900Z&X-Amz-Expires=300&X-Amz-Signature=d5aa497c6e392450aec9a5b7b10f390b7d72c416fae90e2f80a8a66725bf0567&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=673943109" width="400px" />
+      <img src="https://github.com/kropsz/ufop-trabalho-aeds-iii/assets/114687669/f61cad9d-19c3-4bec-bc6b-2a6ce303139d" width="400px" />
    </div>
 
 ## Instruções de Uso
